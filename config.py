@@ -12,8 +12,8 @@ class Config(object):
     API_HASH = getenv("API_HASH", "5a03ee0c82de3e8972dd46a66e039b01")
     TOKEN = getenv("TOKEN", "2144094143:AAEbn55ufmFNwbuoXpdUQ5m_24ugEnXztd0")
     OWNER_ID = getenv("OWNER_ID", "868753606")
-    ASSISTANT_ID = getenv("ASSISTANT_ID", "")
-    STRING_SESSION = getenv("STRING_SESSION", "") #telethon
+    ASSISTANT_ID = getenv("ASSISTANT_ID", "5061573760")
+    STRING_SESSION = getenv("STRING_SESSION", "1BVtsOKEBu6R9GXb4YF1eoP6QZjVXcT4-dy2_9f0fzE2ebY-jOQgSCOuLLWWkfYjPP9FH1zWIb1MhCtXw4kEVVTaAaNwomXzanJS8IxMwjwgK6FFoKGQPflrN3E62nIWZg5_hT4caein953bzitAGQ1XKGsyBZRLgw-EAj7DoIGKfG9dyaqTBk9rPvdlK8E8JhSMr2VCVjdQJeZulDGbkV903EmN5SG0dA1bGRyVnVwAMJijX_wev9XTyHnmsp6G_Dfb71ZqtFGyY44XSDUBj_1v6Lx-LLJ30HSbXJs7313XIbkL9M59wKIpqEVY-hwzd_ufmkHg755RLVPURAjTpvz_5DW1moDA=") #telethon
     OWNER_USERNAME = getenv("OWNER_USERNAME", "smary_aruney")
     DB_URI = getenv("DATABASE_URL", "")
     DB_URI = DB_URI.replace("postgres","postgres://ohpofzjg:Js2CV1rrbOEtrz6L5D7asL3MgqObXaLq@queenie.db.elephantsql.com/ohpofzjg")
