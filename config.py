@@ -42,7 +42,7 @@ class Config(object):
     CASH_API_KEY = getenv("CASH_API_KEY", "https://www.alphavantage.co/support/#api-key")
     TIME_API_KEY = getenv("TIME_API_KEY", "https://timezonedb.com/api")
     WALL_API = getenv("WALL_API", "https://wall.alphacoders.com/api.php")
-    spamwatch_api = getenv("spamwatch_api", "https://t.me/SpamWatchBot")
+    spamwatch_api = getenv("spamwatch_api", "biz5vJYFQEJkyUNdxkI0GGpQZBY8suw7ijT4P7CyOhHQHRz903nSy9wTgLmDRFQz")
     SPAMMERS = getenv("SPAMMERS", "")
     LASTFM_API_KEY = getenv("LASTFM_API_KEY", "https://www.last.fm/api/account/create")
     CF_API_KEY = getenv("CF_API_KEY", "coffehouse.intellivoid.net")
