@@ -8,16 +8,16 @@ if os.path.exists("local.env"):
 load_dotenv()
 class Config(object):
     log = True
-    APP_ID = getenv("API_ID", "6435225")
-    API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
-    TOKEN = getenv("TOKEN", "")
+    APP_ID = getenv("API_ID", "11792103")
+    API_HASH = getenv("API_HASH", "5a03ee0c82de3e8972dd46a66e039b01")
+    TOKEN = getenv("TOKEN", "2144094143:AAEbn55ufmFNwbuoXpdUQ5m_24ugEnXztd0")
     OWNER_ID = getenv("OWNER_ID", "")
     ASSISTANT_ID = getenv("ASSISTANT_ID", "")
     STRING_SESSION = getenv("STRING_SESSION", "") #telethon
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "")
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "smary_aruney")
     DB_URI = getenv("DATABASE_URL", "")
-    DB_URI = DB_URI.replace("postgres", "postgresql")
-    MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001509525202")
+    DB_URI = DB_URI.replace("postgres","postgres://ohpofzjg:Js2CV1rrbOEtrz6L5D7asL3MgqObXaLq@queenie.db.elephantsql.com/ohpofzjg")
+    MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001645899463")
     GBAN_LOGS = getenv("GBAN_LOGS", "-1001509525202")
     SYS_ADMIN = getenv("SYS_ADMIN", "1669178360")
     DEV_USERS = getenv("DEV_USERS", "1669178360")
